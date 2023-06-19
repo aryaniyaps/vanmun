@@ -18,7 +18,7 @@ const committees = [
     agenda: "(to be decided)",
   },
   {
-    name: "Social, Humanitarian and Cultural",
+    name: "Social, Cultural and Humanitarian",
     abbreviation: "SOCHUM",
     agenda: "(to be decided)",
   },

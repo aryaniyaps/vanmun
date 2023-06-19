@@ -15,13 +15,13 @@ const navigation = [
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="min-w-full z-50 bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-40 border-gray-200 border-b-2">
+    <header className="min-w-full z-50 bg-gray-100 border-gray-200 border-b">
       <nav
         className="mx-auto flex items-center justify-between p-4 lg:px-8 max-w-7xl"
         aria-label="Global"
       >
         <div className="flex">
-          <a
+          <Link
             href="/"
             className="-m-1.5 p-1.5 flex justify-center items-center gap-2"
           >
@@ -32,7 +32,7 @@ export default function Navbar() {
               height={30}
             />
             <h1 className="font-extrabold text-black text-xl">vanmun</h1>
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
