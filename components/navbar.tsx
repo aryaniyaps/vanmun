@@ -7,9 +7,9 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Committees", href: "/committees" },
-  { name: "Schedule", href: "/schedule" },
-  { name: "Register", href: registerFormURL },
+  { name: "Committees", href: "/committees", external: false },
+  { name: "Schedule", href: "/schedule", external: false },
+  { name: "Register", href: registerFormURL, external: true },
 ];
 
 export default function Navbar() {
@@ -45,15 +45,27 @@ export default function Navbar() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.map((item) =>
+            item.external ? (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                key={item.name}
+                href={item.href}
+                className="text-sm font-semibold leading-6 text-gray-900"
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-sm font-semibold leading-6 text-gray-900"
+              >
+                {item.name}
+              </Link>
+            )
+          )}
         </div>
       </nav>
       <Dialog
