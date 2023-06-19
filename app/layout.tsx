@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { Toaster } from "@/components/ui/toaster";
 import { cn } from "@/lib/utils";
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={cn("font-sans antialiased", inter.variable)}>
         <Navbar />
         <div className="flex-1 max-w-7xl mx-auto">{children}</div>
+        <Footer />
         {/* toaster goes here */}
         <Toaster />
       </body>
