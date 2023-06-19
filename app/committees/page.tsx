@@ -36,7 +36,7 @@ const committees = [
 
 export default function CommitteesPage() {
   return (
-    <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
+    <div className="px-6 lg:px-0 flex flex-col justify-center items-center min-w-full">
       <div className="py-12 sm:py-16 lg:py-20 flex flex-col justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           committees
