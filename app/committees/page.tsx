@@ -1,7 +1,43 @@
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+const committees = [
+  {
+    name: "Disarmament and International Security",
+    abbreviation: "DISEC",
+    agenda: "(to be decided)",
+  },
+  {
+    name: "Economic and Financial",
+    abbreviation: "ECOFIN",
+    agenda: "(to be decided)",
+  },
+  {
+    name: "Social, Humanitarian and Cultural",
+    abbreviation: "SOCHUM",
+    agenda: "(to be decided)",
+  },
+  {
+    name: "United Nations Human Rights Commission",
+    abbreviation: "UNHRC",
+    agenda: "(to be decided)",
+  },
+  {
+    name: "United Nations Environment Programme",
+    abbreviation: "UNEP",
+    agenda: "(to be decided)",
+  },
+];
+
 export default function CommitteesPage() {
   return (
-    <div className="px-6 lg:px-8 flex flex-col justify-center items-center w-full">
-      <div className="py-24 sm:py-32 lg:py-48 flex flex-col justify-center items-center">
+    <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
+      <div className="py-12 sm:py-16 lg:py-20 flex flex-col justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           committees
         </h1>
@@ -9,15 +45,19 @@ export default function CommitteesPage() {
           We will be announcing agendas soon.
         </div>
       </div>
-      {/* Committees section */}
-      <div className="px-12">
-        <ul className="text-center flex flex-col gap-6">
-          <li>Disarmament and International Security</li>
-          <li> Economic and Financial</li>
-          <li>Social, Humanitarian and Cultural</li>
-          <li>Human Rights Commission</li>
-          <li>Environmental Commission</li>
-        </ul>
+      <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {committees.map((committee) => (
+          <Card key={committee.name}>
+            <CardHeader>
+              <CardTitle>{committee.abbreviation}</CardTitle>
+              <CardDescription>{committee.name}</CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col">
+              <h3 className="text-gray-600 text-sm">agenda</h3>
+              <p className="font-medium">{committee.agenda}</p>
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </div>
   );

@@ -28,8 +28,8 @@ export default function Navbar() {
             <Image
               src="/jubilee-logo.jpg"
               alt="vanmun"
-              width={50}
-              height={50}
+              width={30}
+              height={30}
             />
             <h1 className="font-extrabold text-black text-xl">vanmun</h1>
           </a>
