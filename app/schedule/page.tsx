@@ -50,7 +50,7 @@ export default function SchedulePage() {
           This event schedule is subject to change.
         </div>
       </div>
-      <div className="min-w-full flex flex-col md:flex-row gap-8">
+      <div className="min-w-full flex flex-col md:flex-row gap-8 mb-8">
         <Card>
           <CardHeader>
             <CardTitle>Day 1 (Friday)</CardTitle>

@@ -2,7 +2,7 @@ import { discordInviteURL, registerFormURL } from "@/lib/constants";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 px-8">
+    <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56 px-8">
       <div className="hidden sm:mb-8 sm:flex sm:justify-center">
         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
           Registration closes on July 1st, 2023.

@@ -45,7 +45,7 @@ export default function CommitteesPage() {
           We will be announcing agendas soon.
         </div>
       </div>
-      <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6 pb-8">
         {committees.map((committee) => (
           <Card key={committee.name}>
             <CardHeader>
