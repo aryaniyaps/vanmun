@@ -1,4 +1,4 @@
-import { registerFormURL } from "@/lib/constants";
+import { discordInviteURL, registerFormURL } from "@/lib/constants";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://discord.com/invite/yY85QRp4QS"
+            href={discordInviteURL}
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Join Discord <span aria-hidden="true">→</span>
