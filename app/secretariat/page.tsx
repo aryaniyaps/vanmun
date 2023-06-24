@@ -53,7 +53,7 @@ const members: Member[] = [
   },
   {
     name: "Aryan Iyappan",
-    avatarURL: "/avatars/avatar.jpg",
+    avatarURL: "/avatars/aryan.jpg",
     writeup:
       "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He is a diplomatic person who enjoys solicitous debates.",
     role: "Chairperson",
