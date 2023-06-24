@@ -5,8 +5,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Committee } from "@/lib/types";
 
-const committees = [
+const committees: Committee[] = [
   {
     name: "Disarmament and International Security",
     abbreviation: "DISEC",

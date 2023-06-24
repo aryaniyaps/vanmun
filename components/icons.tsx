@@ -11,9 +11,11 @@ import {
   FileText,
   HelpCircle,
   Image,
+  InstagramIcon,
   Laptop,
   Loader2,
   LucideProps,
+  Mail,
   Moon,
   MoreVertical,
   Pizza,
@@ -43,6 +45,8 @@ export const Icons = {
       <circle cx="12" cy="12" r="10"></circle>
     </svg>
   ),
+  mail: Mail,
+  instagram: InstagramIcon,
   close: X,
   spinner: Loader2,
   chevronLeft: ChevronLeft,
