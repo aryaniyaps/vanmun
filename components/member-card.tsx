@@ -25,9 +25,12 @@ export function MemberCard({ member }: { member: Member }) {
         </div>
       </CardHeader>
       <CardContent className="flex flex-col justify-center items-center">
-        <h3 className="text-gray-600 text-sm text-center max-w-[280px]">
-          {member.writeup}
-        </h3>
+        {member.writeup && (
+          <h3 className="text-gray-600 text-sm text-center max-w-[280px]">
+            {member.writeup}
+          </h3>
+        )}
+
         <div className="flex gap-3 text-gray-600 mt-6">
           {member.socials.map((social) => {
             switch (social.type) {

@@ -11,7 +11,7 @@ type Social = {
 export type Member = {
   name: string;
   avatarURL: string;
-  writeup: string;
+  writeup?: string;
   role: string;
   socials: Social[];
 };
