@@ -10,7 +10,7 @@ export default function Home() {
       </div>
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          let&apos;s start the parliamentary debate
+          crafting tomorrow&apos;s diplomats today
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600">
           <b>VANMUN 2023</b> is happening on the <b>14th and 15th of July</b>.
