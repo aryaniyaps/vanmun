@@ -34,6 +34,8 @@ export function MemberCard({ member }: { member: Member }) {
               case SocialType.Email:
                 return (
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     key={`${social.type}:${social.id}`}
                     href={`mailto:${social.id}`}
                   >
@@ -43,6 +45,8 @@ export function MemberCard({ member }: { member: Member }) {
               case SocialType.Instagram:
                 return (
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     key={`${social.type}:${social.id}`}
                     href={`https://www.instagram.com/${social.id}`}
                   >
