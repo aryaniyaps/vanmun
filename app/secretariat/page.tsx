@@ -77,10 +77,10 @@ const members: Member[] = [
   },
   {
     name: "Nanda Kishore",
-    avatarURL: "/avatars/avatar.jpg",
+    avatarURL: "/avatars/nanda-kishore.jpg",
     writeup: "writeup goes here",
     role: "Chairperson",
-    socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    socials: [{ type: SocialType.Email, id: "nanda07kishore@gmail.com" }],
   },
   {
     name: "Isha Atteri",
@@ -98,10 +98,14 @@ const members: Member[] = [
   },
   {
     name: "Nithya Subramaniam",
-    avatarURL: "/avatars/avatar.jpg",
-    writeup: "writeup goes here",
+    avatarURL: "/avatars/nithya.jpg",
+    writeup:
+      "Nithya Subramaniam is a 3rd year Law Student at Jindal Global Law School. She was the MUN Secretary General from 2017-19. She has also taken up MUNs at the college level. She is extremely passionate about debate and research and has a variety of experiences in the legal sphere.",
     role: "Chairperson",
-    socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    socials: [
+      { type: SocialType.Instagram, id: "nithyasubs" },
+      { type: SocialType.Email, id: "nithyasubramaniam2002@gmail.com" },
+    ],
   },
 ];
 
