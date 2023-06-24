@@ -35,6 +35,17 @@ const members: Member[] = [
     socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
   },
   {
+    name: "Nithya Subramaniam",
+    avatarURL: "/avatars/nithya.jpg",
+    writeup:
+      "Nithya Subramaniam is a 3rd year Law Student at Jindal Global Law School. She was the MUN Secretary General from 2017-19. She is extremely passionate about debate and research and has a variety of experiences in the legal sphere.",
+    role: "Chairperson",
+    socials: [
+      { type: SocialType.Instagram, id: "nithyasubs" },
+      { type: SocialType.Email, id: "nithyasubramaniam2002@gmail.com" },
+    ],
+  },
+  {
     name: "Lakshman Kishore",
     avatarURL: "/avatars/avatar.jpg",
     role: "Chairperson",
@@ -86,17 +97,6 @@ const members: Member[] = [
     avatarURL: "/avatars/avatar.jpg",
     role: "Chairperson",
     socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
-  },
-  {
-    name: "Nithya Subramaniam",
-    avatarURL: "/avatars/nithya.jpg",
-    writeup:
-      "Nithya Subramaniam is a 3rd year Law Student at Jindal Global Law School. She was the MUN Secretary General from 2017-19. She has also taken up MUNs at the college level. She is extremely passionate about debate and research and has a variety of experiences in the legal sphere.",
-    role: "Chairperson",
-    socials: [
-      { type: SocialType.Instagram, id: "nithyasubs" },
-      { type: SocialType.Email, id: "nithyasubramaniam2002@gmail.com" },
-    ],
   },
 ];
 
