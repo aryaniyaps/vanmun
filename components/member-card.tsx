@@ -15,7 +15,9 @@ export function MemberCard({ member }: { member: Member }) {
       <CardHeader className="flex flex-col justify-center items-center gap-4">
         <Avatar className="h-32 w-32">
           <AvatarImage src={member.avatarURL} />
-          <AvatarFallback>{member.name.slice(0, 2)}</AvatarFallback>
+          <AvatarFallback>
+            {member.name.slice(0, 2).toUpperCase()}
+          </AvatarFallback>
         </Avatar>
         <div className="flex flex-col items-center gap-1">
           <CardTitle>{member.name}</CardTitle>
