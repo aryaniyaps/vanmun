@@ -62,13 +62,10 @@ const eventsDayTwo = [
 export default function SchedulePage() {
   return (
     <div className="px-6 lg:px-0 flex flex-col justify-center items-center min-w-full min-h-full">
-      <div className="py-12 sm:py-16 lg:py-20 flex flex-col justify-center items-center">
+      <div className="py-12 sm:py-16 lg:py-20 flex justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          event schedule
+          schedule
         </h1>
-        <div className="mt-6 max-w-sm text-center relative rounded-full px-3 py-1 text-sm text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-          This event schedule is subject to change.
-        </div>
       </div>
       <div className="min-w-full h-full flex flex-col justify-center items-center md:flex-row gap-8 mb-8">
         <Card>

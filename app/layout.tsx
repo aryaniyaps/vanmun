@@ -23,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={cn("font-sans antialiased", workSans.variable)}>
+      <body
+        className={cn("bg-pattern font-sans antialiased", workSans.variable)}
+      >
         <Navbar />
         <div className="flex-1 max-w-7xl mx-auto">{children}</div>
         <Footer />
