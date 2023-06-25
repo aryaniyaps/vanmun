@@ -60,7 +60,7 @@ const members: Member[] = [
     socials: [{ type: SocialType.Email, id: "rlakshmankishore@gmail.com" }],
   },
   {
-    name: "Aasish Bayya",
+    name: "Ashish Bayya",
     avatarURL: "/avatars/avatar.jpg",
     role: "Chairperson",
     socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
@@ -84,7 +84,7 @@ const members: Member[] = [
     ],
   },
   {
-    name: "Shreyas",
+    name: "Shreyas S",
     avatarURL: "/avatars/avatar.jpg",
     role: "Chairperson",
     socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
