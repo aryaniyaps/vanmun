@@ -95,7 +95,10 @@ const members: Member[] = [
     role: "Chairperson",
     writeup:
       "Nanda Kishore is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
-    socials: [{ type: SocialType.Email, id: "nanda07kishore@gmail.com" }],
+    socials: [
+      { type: SocialType.Instagram, id: "nandakishore.7" },
+      { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
+    ],
   },
   {
     name: "Isha Atteri",
