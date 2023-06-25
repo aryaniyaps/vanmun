@@ -56,6 +56,39 @@ export function MemberCard({ member }: { member: Member }) {
                     <Icons.instagram size={20}></Icons.instagram>
                   </a>
                 );
+              case SocialType.Facebook:
+                return (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={`${social.type}:${social.id}`}
+                    href={`https://www.facebook.com/${social.id}`}
+                  >
+                    <Icons.facebook size={20}></Icons.facebook>
+                  </a>
+                );
+              case SocialType.Snapchat:
+                return (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={`${social.type}:${social.id}`}
+                    href={`https://www.snapchat.com/add/${social.id}`}
+                  >
+                    <Icons.ghost size={20}></Icons.ghost>
+                  </a>
+                );
+              case SocialType.Twitter:
+                return (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={`${social.type}:${social.id}`}
+                    href={`https://www.twitter.com/${social.id}`}
+                  >
+                    <Icons.twitter size={20}></Icons.twitter>
+                  </a>
+                );
             }
           })}
         </div>

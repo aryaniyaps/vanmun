@@ -29,10 +29,17 @@ const members: Member[] = [
     ],
   },
   {
-    name: "Mozim Michael",
-    avatarURL: "/avatars/avatar.jpg",
+    name: "Michael Mozim",
+    avatarURL: "/avatars/mozim.jpg",
+    writeup:
+      "Michael Mozim is an avid MUNner who just graduated from VIT Vellore having done B.Tech in Computer Science and Engineering. He has gone for a large number of MUNs during his school days in Sishya, and also chaired in SANMUN 2018 and SISHMUN 2018. He loves reading up on current affairs, and gets involved in any debate regarding diplomacy.",
     role: "Chairperson",
-    socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    socials: [
+      { type: SocialType.Facebook, id: "mozim.michael" },
+      { type: SocialType.Instagram, id: "mozim_michael" },
+      { type: SocialType.Snapchat, id: "mozim_michael" },
+      { type: SocialType.Email, id: "mmozim2000@gmail.com" },
+    ],
   },
   {
     name: "Nithya Subramaniam",
@@ -46,8 +53,9 @@ const members: Member[] = [
     ],
   },
   {
-    name: "Lakshman Kishore",
+    name: "Lakshman Kishore R",
     avatarURL: "/avatars/avatar.jpg",
+    writeup: `Lakshman Kishore R is an alumnus of Chettinad Vidyashram and currently pursuing his BTech degree at IIT Madras. As a member of the official oratory contingent of IIT Madras, Lakshman possesses excellent public speaking skills. His remarkable experience of participating in 32 MUNs, including 16 executive board positions, highlights his exceptional diplomacy and critical thinking abilities. Recently he also chaired the IITM Diplomacia MUN. Beyond academics, Lakshman finds joy in Air Pistol Shooting and playing chess. He firmly upholds the belief that "He who has no charity deserves no mercy."`,
     role: "Chairperson",
     socials: [{ type: SocialType.Email, id: "rlakshmankishore@gmail.com" }],
   },
@@ -61,13 +69,14 @@ const members: Member[] = [
     name: "Aryan Iyappan",
     avatarURL: "/avatars/aryan.jpg",
     writeup:
-      "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He is a diplomatic person who enjoys solicitous debates.",
+      "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He has been a part of the school's MUN club for more than 6 years and has attended various MUNs. He is a vivid debater who embraces diplomacy.",
     role: "Chairperson",
     socials: [
       {
         type: SocialType.Instagram,
         id: "aryaniyaps",
       },
+      { type: SocialType.Twitter, id: "aryaniyaps" },
       {
         type: SocialType.Email,
         id: "aryaniyappan2006@gmail.com",
@@ -81,9 +90,11 @@ const members: Member[] = [
     socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
   },
   {
-    name: "Nanda Kishore",
+    name: "Nanda Kishore K",
     avatarURL: "/avatars/nanda-kishore.jpg",
     role: "Chairperson",
+    writeup:
+      "Nanda Kishore is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
     socials: [{ type: SocialType.Email, id: "nanda07kishore@gmail.com" }],
   },
   {

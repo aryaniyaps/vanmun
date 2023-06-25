@@ -1,5 +1,8 @@
 export enum SocialType {
+  Facebook,
+  Snapchat,
   Instagram,
+  Twitter,
   Email,
 }
 
