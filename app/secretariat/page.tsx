@@ -91,7 +91,7 @@ const members: Member[] = [
   },
   {
     name: "Nanda Kishore K",
-    avatarURL: "/avatars/nanda-kishore.jpg",
+    avatarURL: "/avatars/nanda.jpg",
     role: "Chairperson",
     writeup:
       "Nanda Kishore is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
