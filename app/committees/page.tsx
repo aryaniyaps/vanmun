@@ -14,9 +14,9 @@ export default function CommitteesPage() {
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           committees
         </h1>
-        <div className="mt-6 max-w-sm text-center relative rounded-full px-3 py-1 text-sm text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-          We will be announcing agendas soon.
-        </div>
+        <h3 className="mt-6 max-w-sm text-center relative text-gray-600">
+          Here are the committees for VANMUN 2023
+        </h3>
       </div>
       <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6 pb-8">
         {committees.map((committee) => (
