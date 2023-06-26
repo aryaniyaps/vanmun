@@ -43,11 +43,11 @@ export const eventsDayOne: Event[] = [
   },
   {
     name: "Lunch break",
-    timings: "1:00 - 1:30 PM",
+    timings: "1:00 - 1:45 PM",
   },
   {
     name: "Session 2",
-    timings: "1:30 - 4:30 PM",
+    timings: "1:45 - 4:30 PM",
   },
 ];
 export const eventsDayTwo: Event[] = [
@@ -61,11 +61,11 @@ export const eventsDayTwo: Event[] = [
   },
   {
     name: "Lunch break",
-    timings: "12:00 - 12:30 PM",
+    timings: "12:00 - 12:45 PM",
   },
   {
     name: "Session 2",
-    timings: "12:30 - 3:00 PM",
+    timings: "12:45 - 3:00 PM",
   },
   {
     name: "Valedictory ceremony",
