@@ -4,6 +4,7 @@ export enum SocialType {
   Instagram,
   Twitter,
   Email,
+  Phone,
 }
 
 type Social = {

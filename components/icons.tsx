@@ -20,6 +20,7 @@ import {
   Mail,
   Moon,
   MoreVertical,
+  Phone,
   Pizza,
   Plus,
   Settings,
@@ -48,6 +49,7 @@ export const Icons = {
     </svg>
   ),
   mail: Mail,
+  phone: Phone,
   instagram: Instagram,
   facebook: Facebook,
   ghost: Ghost,

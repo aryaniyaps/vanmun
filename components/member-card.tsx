@@ -45,6 +45,17 @@ export function MemberCard({ member }: { member: Member }) {
                     <Icons.mail size={20}></Icons.mail>
                   </a>
                 );
+              case SocialType.Phone:
+                return (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={`${social.type}:${social.id}`}
+                    href={`tel:${social.id}`}
+                  >
+                    <Icons.phone size={20}></Icons.phone>
+                  </a>
+                );
               case SocialType.Instagram:
                 return (
                   <a

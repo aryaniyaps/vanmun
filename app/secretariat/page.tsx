@@ -102,9 +102,14 @@ const members: Member[] = [
   },
   {
     name: "Isha Atteri",
-    avatarURL: "/avatars/avatar.jpg",
+    avatarURL: "/avatars/isha.jpg",
+    writeup:
+      "Isha Atteri is an alumnus of Vana Vani MHSS and is currently pursuing B.tech at Vellore Institute of Technology, Chennai. She has previous MUNs experience and possesses a huge interest for current political affairs.",
     role: "Chairperson",
-    socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    socials: [
+      { type: SocialType.Email, id: "ishaatteri@gmail.com" },
+      { type: SocialType.Phone, id: "+919677055760" },
+    ],
   },
   {
     name: "Sandhya",
