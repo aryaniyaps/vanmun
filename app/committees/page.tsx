@@ -5,35 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Committee } from "@/lib/types";
-
-const committees: Committee[] = [
-  {
-    name: "Disarmament and International Security",
-    abbreviation: "DISEC",
-    agenda: "(to be announced soon)",
-  },
-  {
-    name: "Economic and Financial",
-    abbreviation: "ECOFIN",
-    agenda: "(to be announced soon)",
-  },
-  {
-    name: "Social, Cultural and Humanitarian",
-    abbreviation: "SOCHUM",
-    agenda: "(to be announced soon)",
-  },
-  {
-    name: "United Nations Human Rights Commission",
-    abbreviation: "UNHRC",
-    agenda: "(to be announced soon)",
-  },
-  {
-    name: "United Nations Environment Programme",
-    abbreviation: "UNEP",
-    agenda: "(to be announced soon)",
-  },
-];
+import { committees } from "@/lib/data";
 
 export default function CommitteesPage() {
   return (

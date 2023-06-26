@@ -25,3 +25,8 @@ export type Committee = {
   abbreviation: string;
   agenda: string;
 };
+
+export type Event = {
+  name: string;
+  timings: string;
+};

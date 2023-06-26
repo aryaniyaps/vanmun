@@ -14,50 +14,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-const eventsDayOne = [
-  {
-    name: "Delegate registration",
-    timings: "7:45 - 8:45 AM",
-  },
-  {
-    name: "Inaugural ceremony",
-    timings: "9:00 - 9:30 AM",
-  },
-  {
-    name: "Session 1",
-    timings: "9:45 AM - 1:00 PM",
-  },
-  {
-    name: "Lunch break",
-    timings: "1:00 - 1:30 PM",
-  },
-  {
-    name: "Session 2",
-    timings: "1:30 - 4:30 PM",
-  },
-];
-const eventsDayTwo = [
-  {
-    name: "Delegate arrival",
-    timings: "7:45 AM",
-  },
-  {
-    name: "Session 1",
-    timings: "8:00 AM - 12:00 PM",
-  },
-  {
-    name: "Lunch break",
-    timings: "12:00 - 12:30 PM",
-  },
-  {
-    name: "Session 2",
-    timings: "12:30 - 3:00 PM",
-  },
-  {
-    name: "Valedictory ceremony",
-    timings: "3:30 - 4:30 PM",
-  },
-];
+import { eventsDayOne, eventsDayTwo } from "@/lib/data";
 
 export default function SchedulePage() {
   return (
