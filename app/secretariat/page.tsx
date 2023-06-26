@@ -4,9 +4,14 @@ import { Member, SocialType } from "@/lib/types";
 const generals: Member[] = [
   {
     name: "Bhavya Boligorla",
-    avatarURL: "/avatars/avatar.jpg",
+    avatarURL: "/avatars/bhavya.jpg",
+    writeup:
+      "Bhavya is a 11th grader with a passion for learning and has attended multiple MUNs in the past four years. She is a responsible and meticulous student and is driven by a genuine desire to understand the world, improve herself and make a positive impact.",
     role: "Secretary General",
-    socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    socials: [
+      { type: SocialType.Email, id: "madhavisanj@gmail.com" },
+      { type: SocialType.Phone, id: "+918939096046" },
+    ],
   },
   {
     name: "Shreyan Iyappan",
