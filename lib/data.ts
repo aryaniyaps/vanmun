@@ -209,15 +209,13 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
   ],
-  Admin: [
+  "Technical Team": [
     {
       name: "Sivaraman M",
       avatarURL: "/avatars/sivaraman.jpg",
       role: "Head of Admin",
       socials: [{ type: SocialType.Email, id: "visu.murugappan@gmail.com" }],
     },
-  ],
-  Press: [
     {
       name: "Netra K",
       avatarURL: "/avatars/netra.jpg",
