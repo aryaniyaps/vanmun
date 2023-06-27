@@ -122,7 +122,7 @@ export const secretariat: Record<string, Member[]> = {
     {
       name: "Ashish Bayya",
       avatarURL: "/avatars/avatar.jpg",
-      role: "Chairperson",
+      role: "Guest Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
     {
@@ -138,7 +138,7 @@ export const secretariat: Record<string, Member[]> = {
       avatarURL: "/avatars/mozim.jpg",
       writeup:
         "Michael Mozim is an avid MUNner who just graduated from VIT Vellore having done B.Tech in Computer Science and Engineering. He has gone for a large number of MUNs during his school days in Sishya, and also chaired in SANMUN 2018 and SISHMUN 2018. He loves reading up on current affairs, and gets involved in any debate regarding diplomacy.",
-      role: "Chairperson",
+      role: "Guest Chairperson",
       socials: [
         { type: SocialType.Facebook, id: "mozim.michael" },
         { type: SocialType.Instagram, id: "mozim_michael" },
@@ -172,7 +172,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Lakshman Kishore R",
       avatarURL: "/avatars/lakshman.jpg",
       writeup: `Lakshman Kishore R is an alumnus of Chettinad Vidyashram and currently pursuing his BTech degree at IIT Madras. As a member of the official oratory contingent of IIT Madras, he possesses excellent public speaking skills. His remarkable experience of participating in 32 MUNs, including 16 executive board positions, highlights his exceptional diplomacy and critical thinking abilities. He firmly upholds the belief that "He who has no charity deserves no mercy."`,
-      role: "Chairperson",
+      role: "Guest Chairperson",
       socials: [
         { type: SocialType.Instagram, id: "_lakshman_kishore_" },
         { type: SocialType.Email, id: "rlakshmankishore@gmail.com" },
