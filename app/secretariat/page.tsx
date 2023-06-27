@@ -3,7 +3,7 @@ import { secretariat } from "@/lib/data";
 
 export default function ExecutiveBoardPage() {
   return (
-    <div className="px-6 lg:px-0 flex flex-col justify-center items-center min-w-full">
+    <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
       <div className="py-12 sm:py-16 lg:py-20 flex flex-col justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           secretariat
@@ -17,18 +17,20 @@ export default function ExecutiveBoardPage() {
           return (
             <div
               key={category}
-              className="flex flex-col gap-8 justify-center items-center"
+              className="w-full flex flex-col gap-8 items-center"
               id={category}
             >
               <a
                 href={`#${category}`}
-                className="text-lg font-bold text-gray-400 py-8"
+                className="text-lg font-bold text-gray-400 pt-8"
               >
                 {category}
               </a>
-              <div className="w-full flex flex-col justify-center sm:flex-row gap-6">
+              <div className="min-w-full flex flex-wrap justify-center gap-6 overflow-x-clip">
                 {members.map((member) => (
-                  <MemberCard member={member} key={member.name} />
+                  <div className="flex-member-card" key={member.name}>
+                    <MemberCard member={member} />
+                  </div>
                 ))}
               </div>
             </div>

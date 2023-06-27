@@ -73,15 +73,14 @@
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
-  }
-
   html, body, #__next {
     @apply w-full;
     @apply min-h-screen;
     @apply flex;
-    @apply flex-col
+    @apply flex-col;
+    @apply bg-background text-foreground;
+    @apply overflow-y-scroll;
+    @apply overflow-x-hidden;
   }
 }
 

@@ -27,7 +27,7 @@ export default function RootLayout({
         className={cn("bg-pattern font-sans antialiased", workSans.variable)}
       >
         <Navbar />
-        <div className="flex-1 max-w-7xl mx-auto">{children}</div>
+        <div className="flex-1 max-w-full lg:max-w-7xl mx-auto">{children}</div>
         <Footer />
         {/* toaster goes here */}
         <Toaster />

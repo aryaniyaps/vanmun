@@ -11,7 +11,7 @@ import {
 
 export function MemberCard({ member }: { member: Member }) {
   return (
-    <Card className="min-w-[330px]">
+    <Card className="min-w-[330px] min-h-full">
       <CardHeader className="flex flex-col justify-center items-center gap-4">
         <Avatar className="h-32 w-32">
           <AvatarImage src={member.avatarURL} />

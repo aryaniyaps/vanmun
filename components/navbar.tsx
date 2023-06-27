@@ -18,13 +18,14 @@ export default function Navbar() {
   return (
     <header className="min-w-full z-50 bg-gray-100 border-gray-200 border-b">
       <nav
-        className="mx-auto flex items-center justify-between p-4 lg:px-8 max-w-7xl"
+        className="mx-auto flex items-center justify-between p-4 lg:px-8 max-w-full lg:max-w-7xl"
         aria-label="Global"
       >
         <div className="flex">
           <Link
             href="/"
             className="-m-1.5 p-1.5 flex justify-center items-center gap-2"
+            passHref
           >
             <Image
               src="/jubilee-logo.jpg"

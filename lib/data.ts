@@ -122,13 +122,13 @@ export const secretariat: Record<string, Member[]> = {
     {
       name: "Ashish Bayya",
       avatarURL: "/avatars/avatar.jpg",
-      role: "Chairperson, SOCHUM",
+      role: "Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
     {
       name: "Sandhya",
       avatarURL: "/avatars/avatar.jpg",
-      role: "Chairperson, SOCHUM",
+      role: "Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
   ],
@@ -138,7 +138,7 @@ export const secretariat: Record<string, Member[]> = {
       avatarURL: "/avatars/mozim.jpg",
       writeup:
         "Michael Mozim is an avid MUNner who just graduated from VIT Vellore having done B.Tech in Computer Science and Engineering. He has gone for a large number of MUNs during his school days in Sishya, and also chaired in SANMUN 2018 and SISHMUN 2018. He loves reading up on current affairs, and gets involved in any debate regarding diplomacy.",
-      role: "Chairperson, DISEC",
+      role: "Chairperson",
       socials: [
         { type: SocialType.Facebook, id: "mozim.michael" },
         { type: SocialType.Instagram, id: "mozim_michael" },
@@ -153,7 +153,7 @@ export const secretariat: Record<string, Member[]> = {
       avatarURL: "/avatars/aryan.jpg",
       writeup:
         "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He has been a part of the school's MUN club for more than 6 years and has attended various MUNs. He is a vivid debater who embraces diplomacy.",
-      role: "Chairperson, ECOFIN",
+      role: "Chairperson",
       socials: [
         {
           type: SocialType.Instagram,
@@ -172,7 +172,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Lakshman Kishore R",
       avatarURL: "/avatars/lakshman.jpg",
       writeup: `Lakshman Kishore R is an alumnus of Chettinad Vidyashram and currently pursuing his BTech degree at IIT Madras. As a member of the official oratory contingent of IIT Madras, he possesses excellent public speaking skills. His remarkable experience of participating in 32 MUNs, including 16 executive board positions, highlights his exceptional diplomacy and critical thinking abilities. He firmly upholds the belief that "He who has no charity deserves no mercy."`,
-      role: "Chairperson, UNHRC",
+      role: "Chairperson",
       socials: [
         { type: SocialType.Instagram, id: "_lakshman_kishore_" },
         { type: SocialType.Email, id: "rlakshmankishore@gmail.com" },
@@ -183,7 +183,7 @@ export const secretariat: Record<string, Member[]> = {
       avatarURL: "/avatars/isha.jpg",
       writeup:
         "Isha Atteri is an alumnus of Vana Vani MHSS and is currently pursuing BTech at Vellore Institute of Technology, Chennai. She has previous MUNs experience and possesses a huge interest for current political affairs.",
-      role: "Chairperson, UNHRC",
+      role: "Chairperson",
       socials: [
         { type: SocialType.Email, id: "ishaatteri@gmail.com" },
         { type: SocialType.Phone, id: "+919677055760" },
@@ -194,13 +194,13 @@ export const secretariat: Record<string, Member[]> = {
     {
       name: "Shreyas S",
       avatarURL: "/avatars/avatar.jpg",
-      role: "Chairperson, UNEP",
+      role: "Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
     {
       name: "Nanda Kishore K",
       avatarURL: "/avatars/nanda.jpg",
-      role: "Chairperson, UNEP",
+      role: "Chairperson",
       writeup:
         "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
       socials: [
