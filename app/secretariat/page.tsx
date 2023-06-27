@@ -1,5 +1,5 @@
 import { MemberCard } from "@/components/member-card";
-import { generals, members } from "@/lib/data";
+import { secretariat } from "@/lib/data";
 
 export default function ExecutiveBoardPage() {
   return (
@@ -12,15 +12,28 @@ export default function ExecutiveBoardPage() {
           Here are the people onboard for VANMUN 2023
         </p>
       </div>
-      <div className="grid w-full grid-flow-row sm:grid-cols-2 gap-6 mb-6">
-        {generals.map((general) => (
-          <MemberCard member={general} key={general.name} />
-        ))}
-      </div>
-      <div className="w-full grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-        {members.map((member) => (
-          <MemberCard member={member} key={member.name} />
-        ))}
+      <div className="w-full flex flex-col gap-20 mb-32">
+        {Object.entries(secretariat).map(([category, members]) => {
+          return (
+            <div
+              key={category}
+              className="flex flex-col gap-8 justify-center items-center"
+              id={category}
+            >
+              <a
+                href={`#${category}`}
+                className="text-lg font-bold text-gray-400"
+              >
+                {category}
+              </a>
+              <div className="w-full flex flex-col justify-center sm:flex-row gap-6">
+                {members.map((member) => (
+                  <MemberCard member={member} key={member.name} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
