@@ -12,7 +12,7 @@ export default function ExecutiveBoardPage() {
           Here are the people onboard for VANMUN 2023
         </p>
       </div>
-      <div className="w-full flex flex-col gap-20 mb-32">
+      <div className="w-full flex flex-col gap-12 mb-32">
         {Object.entries(secretariat).map(([category, members]) => {
           return (
             <div
@@ -22,7 +22,7 @@ export default function ExecutiveBoardPage() {
             >
               <a
                 href={`#${category}`}
-                className="text-lg font-bold text-gray-400"
+                className="text-lg font-bold text-gray-400 py-8"
               >
                 {category}
               </a>

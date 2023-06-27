@@ -2,10 +2,12 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { committees } from "@/lib/data";
+import Link from "next/link";
 
 export default function CommitteesPage() {
   return (
@@ -29,6 +31,14 @@ export default function CommitteesPage() {
               <h3 className="text-gray-600 text-sm">agenda</h3>
               <p className="font-medium">{committee.agenda}</p>
             </CardContent>
+            <CardFooter>
+              <Link
+                className="text-gray-400 font-medium"
+                href={`/secretariat#${committee.name}`}
+              >
+                executive board
+              </Link>
+            </CardFooter>
           </Card>
         ))}
       </div>
