@@ -1,7 +1,13 @@
 import { MemberCard } from "@/components/member-card";
 import { secretariat } from "@/lib/data";
+import { Metadata } from "next";
 
-export default function ExecutiveBoardPage() {
+export const metadata: Metadata = {
+  title: "Secretariat | VANMUN 2023",
+  description: "Secretariat for VANMUN 2023",
+};
+
+export default function SecretariatPage() {
   return (
     <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
       <div className="py-12 sm:py-16 lg:py-20 flex flex-col justify-center items-center">

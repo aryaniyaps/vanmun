@@ -7,7 +7,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { committees } from "@/lib/data";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Committees | VANMUN 2023",
+  description: "Committees for VANMUN 2023",
+};
 
 export default function CommitteesPage() {
   return (

@@ -15,6 +15,12 @@ import {
 } from "@/components/ui/table";
 
 import { eventsDayOne, eventsDayTwo } from "@/lib/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Schedule | VANMUN 2023",
+  description: "Schedule for VANMUN 2023",
+};
 
 export default function SchedulePage() {
   return (
