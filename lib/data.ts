@@ -267,7 +267,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Sivaraman M",
       avatarURL: "/avatars/sivaraman.jpg",
       writeup:
-        "Sivaraman M has a passion for athletics and basketball. He is sincere, obedient and friendly in nature.",
+        "Sivaraman M is a member of the school MUN club since 2019. He has a passion for athletics and basketball. He is sincere, obedient and friendly in nature.",
       role: "Head of Admin",
       socials: [{ type: SocialType.Email, id: "visu.murugappan@gmail.com" }],
     },
