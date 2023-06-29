@@ -135,6 +135,12 @@ export const secretariat: Record<string, Member[]> = {
       role: "Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
+    {
+      name: "Swetha V",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Vice Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
   ],
   "Disarmament and International Security": [
     {
@@ -150,8 +156,28 @@ export const secretariat: Record<string, Member[]> = {
         { type: SocialType.Email, id: "mmozim2000@gmail.com" },
       ],
     },
+    {
+      name: "(Yet to announce)",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
+    {
+      name: "Melina Rose",
+      avatarURL: "/avatars/melina.jpg",
+      writeup:
+        "Melina Rose is a 10th grader who has attended MUNs in the past year. Over the years she has become a seasoned orator. She has a passion for writing and poetry and has published her works online on social media platforms. She is an ambassador of finding oneself through writing.",
+      role: "Vice Chairperson",
+      socials: [{ type: SocialType.Email, id: "melinarosu@gmail.com" }],
+    },
   ],
   "Economic and Financial": [
+    {
+      name: "(Yet to announce)",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Guest Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
     {
       name: "Aryan Iyappan",
       avatarURL: "/avatars/aryan.jpg",
@@ -169,6 +195,12 @@ export const secretariat: Record<string, Member[]> = {
           id: "aryaniyappan2006@gmail.com",
         },
       ],
+    },
+    {
+      name: "Moumita A",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Vice Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
   ],
   "United Nations Human Rights Council": [
@@ -193,6 +225,12 @@ export const secretariat: Record<string, Member[]> = {
         { type: SocialType.Phone, id: "+919677055760" },
       ],
     },
+    {
+      name: "Vidya Bharati",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Vice Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
   ],
   "United Nations Environment Programme": [
     {
@@ -212,19 +250,45 @@ export const secretariat: Record<string, Member[]> = {
         { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
       ],
     },
+    {
+      name: "(Yet to announce)",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Vice Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
   ],
   "Technical Team": [
     {
       name: "Sivaraman M",
       avatarURL: "/avatars/sivaraman.jpg",
+      writeup:
+        "Sivaraman M has a passion for athletics and basketball. He is sincere, obedient and friendly in nature.",
       role: "Head of Admin",
       socials: [{ type: SocialType.Email, id: "visu.murugappan@gmail.com" }],
     },
     {
       name: "Netra K",
       avatarURL: "/avatars/netra.jpg",
+      writeup:
+        "Netra K is a 11th grader who has a great passion towards writing articles and reports. She has written numerous reports for various occasions till date and is eagerly awaiting her first MUN.",
       role: "Head of Press",
       socials: [{ type: SocialType.Email, id: "netrakathir@gmail.com" }],
+    },
+    {
+      name: "Cheralathan E",
+      avatarURL: "/avatars/cheralathan.jpg",
+      writeup:
+        "Cheralathan E is an active participant of the school MUN club. Apart from debates, he is keen in basketball, cricket and a part of the alchemy kids theater for more than 2 years.",
+      role: "Head of Media",
+      socials: [{ type: SocialType.Email, id: "" }],
+    },
+    {
+      name: "Lalith Kishore",
+      avatarURL: "/avatars/lalith.jpg",
+      writeup:
+        "Lalith kishore is a 11th grader, and a technology and a photo capturing expert. He's a professional in astrophotography and landscape photography. Having interest in space science, his aim is to be in the field of aviation.",
+      role: "Head of IT",
+      socials: [{ type: SocialType.Email, id: "lalithkishore0804@gmail.com" }],
     },
   ],
 };
