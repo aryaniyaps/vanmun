@@ -3,6 +3,7 @@ export enum SocialType {
   Snapchat,
   Instagram,
   Twitter,
+  Linkedin,
   Email,
   Phone,
 }

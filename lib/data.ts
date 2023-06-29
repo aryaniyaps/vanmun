@@ -121,9 +121,13 @@ export const secretariat: Record<string, Member[]> = {
   "Social, Cultural and Humanitarian": [
     {
       name: "Ashish Bayya",
-      avatarURL: "/avatars/avatar.jpg",
+      avatarURL: "/avatars/ashish.jpg",
+      writeup: `Ashish is a recent graduate of B.A. (Hons) Global Affairs from Jindal Global University. With five years of experience in MUN circuits and chairing conferences in India, he has a special interest in humanitarian committees. Currently a Centre Associate at the Centre for Security Studies, he brings expertise in Security Studies and serves as the Publishing Editor at Project Statecraft, a youth-led think-tank. Ashish's leadership roles include being the President of his college's Student Council and his university's Rotaract Club. He aims to engage with delegates in a productive and enjoyable committee experience.`,
       role: "Guest Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [
+        { type: SocialType.Instagram, id: "bayyyaaaa" },
+        { type: SocialType.Linkedin, id: "ashish-bayya-bsashish11" },
+      ],
     },
     {
       name: "Sandhya",

@@ -100,6 +100,17 @@ export function MemberCard({ member }: { member: Member }) {
                     <Icons.twitter size={20}></Icons.twitter>
                   </a>
                 );
+              case SocialType.Linkedin:
+                return (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={`${social.type}:${social.id}`}
+                    href={`https://www.linkedin.com/in/${social.id}`}
+                  >
+                    <Icons.linkedin size={20}></Icons.linkedin>
+                  </a>
+                );
             }
           })}
         </div>
