@@ -92,7 +92,10 @@ export const secretariat: Record<string, Member[]> = {
       writeup:
         "Shreyan is a 10th grader with a keen interest in international affairs and diplomacy. With each MUN experience, Shreyan aims to broaden their understanding of global issues and actively contribute to meaningful discussions.",
       role: "Deputy Secretary General",
-      socials: [{ type: SocialType.Email, id: "shreyaniyappan2006@gmail.com" }],
+      socials: [
+        { type: SocialType.Email, id: "shreyaniyappan2006@gmail.com" },
+        { type: SocialType.Phone, id: "+919043597499" },
+      ],
     },
   ],
   "Rolling Chairpersons": [
