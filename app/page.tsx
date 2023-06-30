@@ -15,7 +15,7 @@ export default function Home() {
         <p className="mt-6 text-lg leading-8 text-gray-600">
           <b>VANMUN 2023</b> is happening on the <b>14th and 15th of July</b>.
         </p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <div className="mt-10 flex items-center justify-center gap-12">
           <a
             target="_blank"
             rel="noopener noreferrer"

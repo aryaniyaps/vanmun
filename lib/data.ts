@@ -135,8 +135,10 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "Sandhya",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Sandhya Muthu Raman",
+      avatarURL: "/avatars/sandhya.jpg",
+      writeup:
+        "Sandhya is a loyolite currently perusing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
       role: "Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
@@ -173,7 +175,10 @@ export const secretariat: Record<string, Member[]> = {
       writeup:
         "Melina Rose is a 10th grader who has attended MUNs in the past year. Over the years she has become a seasoned orator. She has a passion for writing and poetry and has published her works online on social media platforms. She is an ambassador of finding oneself through writing.",
       role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "melinarosu@gmail.com" }],
+      socials: [
+        { type: SocialType.Instagram, id: "_melina_rose_" },
+        { type: SocialType.Email, id: "melinarosu@gmail.com" },
+      ],
     },
   ],
   "Economic and Financial": [
@@ -203,9 +208,11 @@ export const secretariat: Record<string, Member[]> = {
     },
     {
       name: "Moumita A",
-      avatarURL: "/avatars/avatar.jpg",
+      avatarURL: "/avatars/moumita.jpg",
+      writeup:
+        "Moumita A has participated in a number of debate competitions. She has good communication skills and a huge interest in political affairs. She is a member of the MUN club since 2019.",
       role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [{ type: SocialType.Email, id: "moumita1062008@gmail.com" }],
     },
   ],
   "United Nations Human Rights Council": [
@@ -231,13 +238,21 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "Vidya Bharati",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Vidya Bharati S",
+      avatarURL: "/avatars/vidya.jpg",
+      writeup:
+        "Vidya Bharathi S from 10th grade is an optimistic, vibrant and inquisitive young girl. She has been a part of the VANMUN club for the past few years. She has attended MUNs in various schools and had a great learning experience.",
       role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [{ type: SocialType.Email, id: "indranisoms@gmail.com" }],
     },
   ],
   "United Nations Environment Programme": [
+    {
+      name: "(Yet to announce)",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Guest Chairperson",
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+    },
     {
       name: "Shreyas S",
       avatarURL: "/avatars/avatar.jpg",
@@ -247,19 +262,13 @@ export const secretariat: Record<string, Member[]> = {
     {
       name: "Nanda Kishore K",
       avatarURL: "/avatars/nanda.jpg",
-      role: "Chairperson",
+      role: "Vice Chairperson",
       writeup:
         "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
       socials: [
         { type: SocialType.Instagram, id: "nandakishore.7" },
         { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
       ],
-    },
-    {
-      name: "(Yet to announce)",
-      avatarURL: "/avatars/avatar.jpg",
-      role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
   ],
   "Technical Team": [
