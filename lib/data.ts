@@ -74,6 +74,21 @@ export const eventsDayTwo: Event[] = [
 ];
 
 export const secretariat: Record<string, Member[]> = {
+  "Advisory Board": [
+    {
+      name: "Harishankar Padmanabhan",
+      avatarURL: "/avatars/hari.jpg",
+      writeup:
+        "Harishankar Padmanabhan is the Founder and CEO of Speak Your Mind Education, a startup that focuses on training students in public speaking and on taking care of their mental health. Hari is a reputed public speaker with an experience of 100+ MUNs and public speaking events. He has been on several executive boards for MUNs conducted by some of the most prestigious institutes in the country like IIT, IIM, BITS, Christ, Manipal, VIT and Symbiosis to name a few.",
+      role: "Chief MUN Advisor",
+      socials: [
+        {
+          type: SocialType.Email,
+          id: "placeholder@example.com",
+        },
+      ],
+    },
+  ],
   "Secretary Generals": [
     {
       name: "Bhavya Boligorla",
@@ -125,7 +140,7 @@ export const secretariat: Record<string, Member[]> = {
     {
       name: "Nanda Kishore K",
       avatarURL: "/avatars/nanda.jpg",
-      role: "Vice Chairperson",
+      role: "Rolling Chairperson",
       writeup:
         "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
       socials: [
@@ -146,18 +161,33 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "Sandhya Muthu Raman",
-      avatarURL: "/avatars/sandhya.jpg",
+      name: "Aryan Iyappan",
+      avatarURL: "/avatars/aryan.jpg",
       writeup:
-        "Sandhya is a loyolite currently perusing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
+        "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He has been a part of the school's MUN club for more than 6 years and has attended various MUNs. He is a vivid debater who embraces diplomacy.",
       role: "Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [
+        {
+          type: SocialType.Instagram,
+          id: "aryaniyaps",
+        },
+        { type: SocialType.Twitter, id: "aryaniyaps" },
+        {
+          type: SocialType.Email,
+          id: "aryaniyappan2006@gmail.com",
+        },
+      ],
     },
     {
-      name: "(Yet to announce)",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Shwetha V",
+      avatarURL: "/avatars/shwetha.jpg",
+      writeup:
+        "Shwetha V graduated from Vana Vani (2023). Academically sound and having a deep inclination towards the sciences, She has an ambition of becoming a woman in STEM and dreams of bridging the gap between science, art and culture. She's also passionate about literature, theatrical arts and music. As a poet, She aspires to create an inclusive space with her words.",
       role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [
+        { type: SocialType.Instagram, id: "total_._chaos" },
+        { type: SocialType.Email, id: "shwetha.viswesh@gmail.com" },
+      ],
     },
   ],
   "Disarmament and International Security": [
@@ -196,36 +226,28 @@ export const secretariat: Record<string, Member[]> = {
   ],
   "Economic and Financial": [
     {
-      name: "(Yet to announce)",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Narayan Sekar",
+      avatarURL: "/avatars/narayan.jpg",
+      writeup:
+        "Narayan Sekar is a pure science student in grade 12, is a keen participant in MUNs right from his 6th grade and has been consistently attending MUNs for 3+ years. He has a keen interest for international economic and financial affairs. With each MUN, Narayan aims to update himself as well as his peers in the field, by means of debating.",
       role: "Guest Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [{ type: SocialType.Email, id: "narayansekar111@gmail.com" }],
     },
     {
-      name: "Aryan Iyappan",
-      avatarURL: "/avatars/aryan.jpg",
+      name: "Abhimanyu Kumar Sharma",
+      avatarURL: "/avatars/abhi.jpg",
       writeup:
-        "Aryan Iyappan just graduated from Vana Vani (2023). He is a former MUN Secretary General of the school. He has been a part of the school's MUN club for more than 6 years and has attended various MUNs. He is a vivid debater who embraces diplomacy.",
+        "Abhimanyu is a 17 year old from India who identifies as a bisexual transman and is a Mental Health and LGBTQ+ advocate with a deep rooted interest in economics and geopolitics. He is also an avid debater and an aggressive delegate, he’s been hanging out in the Model UN circuit for the last 4 years and is not bored of it yet! He is also a writer and usually writes about political issues or sometimes even science, he’s also the founder of Change Social Mindset that works towards various social issues.",
+      role: "Guest Chairperson",
+      socials: [{ type: SocialType.Instagram, id: "doc_1508" }],
+    },
+    {
+      name: "Sandhya Muthu Raman",
+      avatarURL: "/avatars/sandhya.jpg",
+      writeup:
+        "Sandhya is a loyolite currently perusing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
       role: "Chairperson",
-      socials: [
-        {
-          type: SocialType.Instagram,
-          id: "aryaniyaps",
-        },
-        { type: SocialType.Twitter, id: "aryaniyaps" },
-        {
-          type: SocialType.Email,
-          id: "aryaniyappan2006@gmail.com",
-        },
-      ],
-    },
-    {
-      name: "Moumita A",
-      avatarURL: "/avatars/moumita.jpg",
-      writeup:
-        "Moumita A has participated in a number of debate competitions. She has good communication skills and a huge interest in political affairs. She is a member of the MUN club since 2019.",
-      role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "moumita1062008@gmail.com" }],
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
   ],
   "United Nations Human Rights Council": [
@@ -261,7 +283,7 @@ export const secretariat: Record<string, Member[]> = {
   ],
   "United Nations Environment Programme": [
     {
-      name: "(Yet to announce)",
+      name: "Abejo Michael",
       avatarURL: "/avatars/avatar.jpg",
       role: "Guest Chairperson",
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
@@ -278,15 +300,12 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "Shwetha V",
-      avatarURL: "/avatars/shwetha.jpg",
+      name: "Moumita A",
+      avatarURL: "/avatars/moumita.jpg",
       writeup:
-        "Shwetha V graduated from Vana Vani (2023). Academically sound and having a deep inclination towards the sciences, She has an ambition of becoming a woman in STEM and dreams of bridging the gap between science, art and culture. She's also passionate about literature, theatrical arts and music. As a poet, She aspires to create an inclusive space with her words.",
+        "Moumita A has participated in a number of debate competitions. She has good communication skills and a huge interest in political affairs. She is a member of the MUN club since 2019.",
       role: "Vice Chairperson",
-      socials: [
-        { type: SocialType.Instagram, id: "total_._chaos" },
-        { type: SocialType.Email, id: "shwetha.viswesh@gmail.com" },
-      ],
+      socials: [{ type: SocialType.Email, id: "moumita1062008@gmail.com" }],
     },
   ],
   "Technical Team": [
