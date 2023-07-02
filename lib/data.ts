@@ -122,6 +122,17 @@ export const secretariat: Record<string, Member[]> = {
         { type: SocialType.Email, id: "nithyasubramaniam2002@gmail.com" },
       ],
     },
+    {
+      name: "Nanda Kishore K",
+      avatarURL: "/avatars/nanda.jpg",
+      role: "Vice Chairperson",
+      writeup:
+        "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
+      socials: [
+        { type: SocialType.Instagram, id: "nandakishore.7" },
+        { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
+      ],
+    },
   ],
   "Social, Cultural and Humanitarian": [
     {
@@ -143,15 +154,10 @@ export const secretariat: Record<string, Member[]> = {
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
     {
-      name: "Nanda Kishore K",
-      avatarURL: "/avatars/nanda.jpg",
+      name: "(Yet to announce)",
+      avatarURL: "/avatars/avatar.jpg",
       role: "Vice Chairperson",
-      writeup:
-        "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
-      socials: [
-        { type: SocialType.Instagram, id: "nandakishore.7" },
-        { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
-      ],
+      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
   ],
   "Disarmament and International Security": [
