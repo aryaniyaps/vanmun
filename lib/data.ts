@@ -279,7 +279,7 @@ export const secretariat: Record<string, Member[]> = {
       role: "Vice Chairperson",
       socials: [
         { type: SocialType.Instagram, id: "total_._chaos" },
-        { type: SocialType.Email, id: "placeholder@example.com" },
+        { type: SocialType.Email, id: "shwetha.viswesh@gmail.com" },
       ],
     },
   ],
