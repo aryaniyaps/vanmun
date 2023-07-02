@@ -1,3 +1,6 @@
+import { discordInviteURL, instagramURL } from "@/lib/constants";
+import { Separator } from "./ui/separator";
+
 export function Footer() {
   return (
     <footer className="min-w-full bg-gray-100">
@@ -9,7 +12,15 @@ export function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <p>Powered by Vercel</p>
+        <div className="flex gap-2">
+          <a target="_blank" rel="noopener noreferrer" href={instagramURL}>
+            Instagram
+          </a>
+          <Separator orientation="vertical" />
+          <a target="_blank" rel="noopener noreferrer" href={discordInviteURL}>
+            Discord
+          </a>
+        </div>
       </div>
     </footer>
   );

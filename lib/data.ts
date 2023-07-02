@@ -88,7 +88,7 @@ export const secretariat: Record<string, Member[]> = {
     },
     {
       name: "Shreyan Iyappan",
-      avatarURL: "/avatars/shreyan-new.jpg",
+      avatarURL: "/avatars/shreyan.jpg",
       writeup:
         "Shreyan is a 10th grader with a keen interest in international affairs and diplomacy. With each MUN experience, Shreyan aims to broaden their understanding of global issues and actively contribute to meaningful discussions.",
       role: "Deputy Secretary General",
