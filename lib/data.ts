@@ -88,7 +88,7 @@ export const secretariat: Record<string, Member[]> = {
     },
     {
       name: "Shreyan Iyappan",
-      avatarURL: "/avatars/shreyan.jpg",
+      avatarURL: "/avatars/shreyan-new.jpg",
       writeup:
         "Shreyan is a 10th grader with a keen interest in international affairs and diplomacy. With each MUN experience, Shreyan aims to broaden their understanding of global issues and actively contribute to meaningful discussions.",
       role: "Deputy Secretary General",
@@ -143,10 +143,15 @@ export const secretariat: Record<string, Member[]> = {
       socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
     },
     {
-      name: "Swetha V",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Nanda Kishore K",
+      avatarURL: "/avatars/nanda.jpg",
       role: "Vice Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      writeup:
+        "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
+      socials: [
+        { type: SocialType.Instagram, id: "nandakishore.7" },
+        { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
+      ],
     },
   ],
   "Disarmament and International Security": [
@@ -164,10 +169,12 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "(Yet to announce)",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Vishnu Prahalath S",
+      avatarURL: "/avatars/vishnu.jpg",
+      writeup:
+        "Vishnu Prahalath is an under graduate pursuing BA Economics 2nd year at Madras Christian College, Chennai. The former Vanavanian was the school second topper in 2021-22. In addition to his academic achievements, he also actively participated in several debates and MUNs conducted by different institutions and won several awards. He was awarded the best delegate in GTMUN held in 2021. He was the valued member of the interact club of Vanavani. In his college, he is the student representative and a student of NSS.",
       role: "Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [{ type: SocialType.Email, id: "vishnugayu2004@gmail.com" }],
     },
     {
       name: "Melina Rose",
@@ -238,7 +245,7 @@ export const secretariat: Record<string, Member[]> = {
       ],
     },
     {
-      name: "Vidya Bharati S",
+      name: "Vidyabharathi S",
       avatarURL: "/avatars/vidya.jpg",
       writeup:
         "Vidya Bharathi S from 10th grade is an optimistic, vibrant and inquisitive young girl. She has been a part of the VANMUN club for the past few years. She has attended MUNs in various schools and had a great learning experience.",
@@ -255,19 +262,24 @@ export const secretariat: Record<string, Member[]> = {
     },
     {
       name: "Shreyas S",
-      avatarURL: "/avatars/avatar.jpg",
+      avatarURL: "/avatars/shreyas.jpg",
+      writeup:
+        "Shreyas who is an alumnus of Vanavani, is currently pursuing B.Tech in IIT Madras. He was an avid MUNer who has attended MUNs for 3+ years. His debating interests mainly revolve around technology, it's ethics and it's intersection with pressing environmental issues.",
       role: "Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [
+        { type: SocialType.Instagram, id: "_.shreyas07._" },
+        { type: SocialType.Email, id: "shreyas.07.sathish@gmail.com" },
+      ],
     },
     {
-      name: "Nanda Kishore K",
-      avatarURL: "/avatars/nanda.jpg",
-      role: "Vice Chairperson",
+      name: "Shwetha V",
+      avatarURL: "/avatars/shwetha.jpg",
       writeup:
-        "Nanda Kishore K is pursuing his first year of electrical engineering in college. He has been a part of the school's MUN club for 6 years. He is a tech geek who is into automobiles and aviation. He loves debating in general.",
+        "Shwetha V graduated from Vana Vani (2023). Academically sound and having a deep inclination towards the sciences, She has an ambition of becoming a woman in STEM and dreams of bridging the gap between science, art and culture. She's also passionate about literature, theatrical arts and music. As a poet, She aspires to create an inclusive space with her words.",
+      role: "Vice Chairperson",
       socials: [
-        { type: SocialType.Instagram, id: "nandakishore.7" },
-        { type: SocialType.Email, id: "nanda07kishore@gmail.com" },
+        { type: SocialType.Instagram, id: "total_._chaos" },
+        { type: SocialType.Email, id: "placeholder@example.com" },
       ],
     },
   ],
