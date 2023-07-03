@@ -79,8 +79,6 @@
     @apply flex;
     @apply flex-col;
     @apply bg-background text-foreground;
-    @apply overflow-y-scroll;
-    @apply overflow-x-hidden;
   }
 }
 
