@@ -81,12 +81,7 @@ export const secretariat: Record<string, Member[]> = {
       writeup:
         "Harishankar Padmanabhan is the Founder and CEO of Speak Your Mind Education, a startup that focuses on training students in public speaking and on taking care of their mental health. Hari is a reputed public speaker with an experience of 100+ MUNs and public speaking events. He has been on several executive boards for MUNs conducted by some of the most prestigious institutes in the country like IIT, IIM, BITS, Christ, Manipal, VIT and Symbiosis to name a few.",
       role: "Chief MUN Advisor",
-      socials: [
-        {
-          type: SocialType.Email,
-          id: "placeholder@example.com",
-        },
-      ],
+      socials: [{ type: SocialType.Instagram, id: "harishankarpadmanabhan" }],
     },
   ],
   "Secretary Generals": [
@@ -247,7 +242,7 @@ export const secretariat: Record<string, Member[]> = {
       writeup:
         "Sandhya is a loyolite currently perusing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
       role: "Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [],
     },
   ],
   "United Nations Human Rights Council": [
@@ -289,7 +284,7 @@ export const secretariat: Record<string, Member[]> = {
         "Abejo is an 18 y/o tech enthusiast and an active MUNner through his years of school and has also chaired SISHMUN 2022. He is now a student of VIT Vellore studying Computer Science and Engineering and he is an active part of the tech community.",
       role: "Guest Chairperson",
       socials: [
-        { type: SocialType.Instagram, id: "placeholder@example.com" },
+        { type: SocialType.Instagram, id: "abejo_michael" },
         { type: SocialType.Twitter, id: "_nonamewrath" },
       ],
     },
@@ -314,6 +309,12 @@ export const secretariat: Record<string, Member[]> = {
     },
   ],
   "Technical Team": [
+    {
+      name: "Pranaya",
+      avatarURL: "/avatars/avatar.jpg",
+      role: "Head of Design",
+      socials: [],
+    },
     {
       name: "Sivaraman M",
       avatarURL: "/avatars/sivaraman.jpg",
