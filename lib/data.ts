@@ -286,7 +286,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Abejo Michael",
       avatarURL: "/avatars/abejo.jpg",
       writeup:
-        "Abejo is an 18 y/o tech enthusiast and an active MUNner through his years of school and has also chaired SISHMUN 2023. He is now a student of VIT Vellore studying Computer Science and Engineering and he is an active part of the tech community.",
+        "Abejo is an 18 y/o tech enthusiast and an active MUNner through his years of school and has also chaired SISHMUN 2022. He is now a student of VIT Vellore studying Computer Science and Engineering and he is an active part of the tech community.",
       role: "Guest Chairperson",
       socials: [
         { type: SocialType.Instagram, id: "placeholder@example.com" },
