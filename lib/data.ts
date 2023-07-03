@@ -310,10 +310,12 @@ export const secretariat: Record<string, Member[]> = {
   ],
   "Technical Team": [
     {
-      name: "Pranaya",
-      avatarURL: "/avatars/avatar.jpg",
+      name: "Ganta Pranaya Rao",
+      avatarURL: "/avatars/pranaya.jpg",
+      writeup:
+        "Ganta Pranaya Rao is an aspiring designer who intends to major in computer science and engineering. She hopes to be a part of the best of these world's and make a significant and meaningful impact on society.",
       role: "Head of Design",
-      socials: [],
+      socials: [{ type: SocialType.Instagram, id: "art_plastiquess" }],
     },
     {
       name: "Sivaraman M",
