@@ -229,7 +229,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Narayan Sekar",
       avatarURL: "/avatars/narayan.jpg",
       writeup:
-        "Narayan Sekar is a pure science student in grade 12, is a keen participant in MUNs right from his 6th grade and has been consistently attending MUNs for 3+ years. He has a keen interest for international economic and financial affairs. With each MUN, Narayan aims to update himself as well as his peers in the field, by means of debating.",
+        "Narayan Sekar is a pure science student in grade 12. He is a keen participant in MUNs right from his 6th grade and has been consistently attending MUNs for 5 years. He has a keen interest for international economic and financial affairs. With each MUN, Narayan aims to update himself as well as his peers in the field, by means of debating.",
       role: "Guest Chairperson",
       socials: [{ type: SocialType.Email, id: "narayansekar111@gmail.com" }],
     },
@@ -284,9 +284,14 @@ export const secretariat: Record<string, Member[]> = {
   "United Nations Environment Programme": [
     {
       name: "Abejo Michael",
-      avatarURL: "/avatars/avatar.jpg",
+      avatarURL: "/avatars/abejo.jpg",
+      writeup:
+        "Abejo is an 18 y/o tech enthusiast and an active MUNner through his years of school and has also chaired SISHMUN 2023. He is now a student of VIT Vellore studying Computer Science and Engineering and he is an active part of the tech community.",
       role: "Guest Chairperson",
-      socials: [{ type: SocialType.Email, id: "placeholder@example.com" }],
+      socials: [
+        { type: SocialType.Instagram, id: "placeholder@example.com" },
+        { type: SocialType.Twitter, id: "_nonamewrath" },
+      ],
     },
     {
       name: "Shreyas S",
