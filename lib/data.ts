@@ -4,27 +4,30 @@ export const committees: Committee[] = [
   {
     name: "Disarmament and International Security",
     abbreviation: "DISEC",
-    agenda: "(to be announced soon)",
+    agenda: "The threat of nuclear weapons on international peace and security",
   },
   {
     name: "Economic and Financial",
     abbreviation: "ECOFIN",
-    agenda: "(to be announced soon)",
+    agenda:
+      "Discussion on the economic implications and economic recovery from the crisis in Libya",
   },
   {
     name: "Social, Cultural and Humanitarian",
     abbreviation: "SOCHUM",
-    agenda: "(to be announced soon)",
+    agenda:
+      "Evaluating the implementation of the International Bill of Human Rights in conflict-prone territories with special emphasis on the Donbas Region",
   },
   {
     name: "United Nations Human Rights Council",
     abbreviation: "UNHRC",
-    agenda: "(to be announced soon)",
+    agenda:
+      "Discussing methods to curb human rights violations and infringements, with a special emphasis on advancements in artificial intelligence and automation",
   },
   {
     name: "United Nations Environment Programme",
     abbreviation: "UNEP",
-    agenda: "(to be announced soon)",
+    agenda: "Climate change and its effects in the 21st century",
   },
 ];
 

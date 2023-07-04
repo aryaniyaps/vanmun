@@ -28,14 +28,14 @@ export default function CommitteesPage() {
       </div>
       <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-6 pb-8">
         {committees.map((committee) => (
-          <Card key={committee.name}>
+          <Card key={committee.name} className="flex flex-col">
             <CardHeader>
               <CardTitle>{committee.abbreviation}</CardTitle>
               <CardDescription>{committee.name}</CardDescription>
             </CardHeader>
-            <CardContent className="flex flex-col">
-              <h3 className="text-gray-600 text-sm">agenda</h3>
-              <p className="font-medium">{committee.agenda}</p>
+            <CardContent className="flex flex-1 flex-col gap-2">
+              <h3 className="text-gray-600 text-sm font-medium">agenda</h3>
+              <p className="font-normal ">{committee.agenda}</p>
             </CardContent>
             <CardFooter>
               <Link
