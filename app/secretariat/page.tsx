@@ -12,7 +12,7 @@ export default function SecretariatPage() {
     <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
       <div className="py-8 sm:py-12 lg:py-16 flex flex-col justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          secretariat
+          Secretariat
         </h1>
         <p className="mt-6 max-w-sm text-center text-gray-600">
           Here are the people onboard for VANMUN 2023
