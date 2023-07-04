@@ -240,7 +240,7 @@ export const secretariat: Record<string, Member[]> = {
       name: "Sandhya Muthu Raman",
       avatarURL: "/avatars/sandhya.jpg",
       writeup:
-        "Sandhya is a loyolite currently perusing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
+        "Sandhya is a loyolite currently pursuing her second year in the BBA France program. Her interest lies in cross cultural management and aspires to propel her career in the same field. ",
       role: "Chairperson",
       socials: [],
     },
