@@ -1,4 +1,5 @@
-import { discordInviteURL, registerFormURL } from "@/lib/constants";
+import { Icons } from "@/components/icons";
+import { instagramURL, registerFormURL } from "@/lib/constants";
 
 export default function Home() {
   return (
@@ -27,10 +28,10 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={discordInviteURL}
-            className="text-sm font-semibold leading-6 text-gray-900"
+            href={instagramURL}
+            className="text-sm font-semibold flex gap-2 items-center leading-6 text-gray-900"
           >
-            Join Discord <span aria-hidden="true">→</span>
+            Follow us on <Icons.instagram size={20} className="h-4 w-4" />
           </a>
         </div>
       </div>

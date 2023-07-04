@@ -1,5 +1,4 @@
-import { discordInviteURL, instagramURL } from "@/lib/constants";
-import { Separator } from "./ui/separator";
+import { instagramURL } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -12,15 +11,9 @@ export function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <div className="flex gap-2">
-          <a target="_blank" rel="noopener noreferrer" href={instagramURL}>
-            Instagram
-          </a>
-          <Separator orientation="vertical" />
-          <a target="_blank" rel="noopener noreferrer" href={discordInviteURL}>
-            Discord
-          </a>
-        </div>
+        <a target="_blank" rel="noopener noreferrer" href={instagramURL}>
+          Instagram
+        </a>
       </div>
     </footer>
   );
