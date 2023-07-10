@@ -25,6 +25,8 @@ export type Committee = {
   name: string;
   abbreviation: string;
   agenda: string;
+  // Background Guide Download URL
+  bgDownloadURL?: string;
 };
 
 export type Event = {

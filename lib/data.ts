@@ -5,18 +5,21 @@ export const committees: Committee[] = [
     name: "Disarmament and International Security",
     abbreviation: "DISEC",
     agenda: "The threat of nuclear weapons on international peace and security",
+    bgDownloadURL: "/background-guides/DISEC-BG-VANMUN23.pdf",
   },
   {
     name: "Economic and Financial",
     abbreviation: "ECOFIN",
     agenda:
       "Discussion on the economic implications and economic recovery from the crisis in Libya",
+    bgDownloadURL: "/background-guides/ECOFIN-BG-VANMUN23.pdf",
   },
   {
     name: "Social, Cultural and Humanitarian",
     abbreviation: "SOCHUM",
     agenda:
       "Evaluating the implementation of the International Bill of Human Rights in conflict-prone territories with special emphasis on the Donbas Region",
+    bgDownloadURL: "/background-guides/SOCHUM-BG-VANMUN23.pdf",
   },
   {
     name: "United Nations Human Rights Council",

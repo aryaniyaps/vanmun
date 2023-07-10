@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -35,15 +36,26 @@ export default function CommitteesPage() {
             </CardHeader>
             <CardContent className="flex flex-1 flex-col gap-2">
               <h3 className="text-gray-600 text-sm font-medium">agenda</h3>
-              <p className="font-normal ">{committee.agenda}</p>
+              <p className="font-normal">{committee.agenda}</p>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex gap-6 justify-start items-center">
               <Link
-                className="text-gray-400 font-medium"
+                className="font-medium text-sm"
                 href={`/secretariat#${committee.name}`}
               >
-                executive board
+                Executive Board
               </Link>
+              {committee.bgDownloadURL && (
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  prefetch={false}
+                  href={committee.bgDownloadURL}
+                  passHref
+                >
+                  <Button variant="outline">Background Guide</Button>
+                </Link>
+              )}
             </CardFooter>
           </Card>
         ))}
