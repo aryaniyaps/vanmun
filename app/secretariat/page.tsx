@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function SecretariatPage() {
   return (
     <div className="px-6 lg:px-0 flex flex-col justify-center items-center w-full">
-      <div className="py-8 sm:py-12 lg:py-16 flex flex-col justify-center items-center">
+      <div className="pt-8 pb-8 sm:pt-12 lg:pt-16 flex flex-col justify-center items-center">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           Secretariat
         </h1>

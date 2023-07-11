@@ -7,8 +7,8 @@ export default function Home() {
     <>
       <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56 px-8">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Delegate registration is open now.
+          <div className="relative rounded-full px-3 py-1 font-black leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            Registrations are open now!
           </div>
         </div>
         <div className="text-center">
@@ -52,11 +52,11 @@ export default function Home() {
           <Avatar className="h-24 w-24">
             <AvatarImage src="/avatars/gitanjali-mam.jpg" />
             <AvatarFallback>
-              {"Gitanjali".slice(0, 2).toUpperCase()}
+              {"Gitanjali Elangovan".slice(0, 2).toUpperCase()}
             </AvatarFallback>
           </Avatar>
           <div className="flex flex-col">
-            <p className="font-semibold">Mrs. Gitanjali</p>
+            <p className="font-semibold">Mrs. Gitanjali Elangovan</p>
             <p className="tex-xs text-gray-500">MUN Coordinator, Vana Vani</p>
           </div>
         </div>
