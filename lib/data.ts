@@ -26,6 +26,7 @@ export const committees: Committee[] = [
     abbreviation: "UNHRC",
     agenda:
       "Discussing methods to curb human rights violations and infringements, with a special emphasis on advancements in artificial intelligence and automation",
+    bgDownloadURL: "/background-guides/UNHRC-BG-VANMUN23.pdf",
   },
   {
     name: "United Nations Environment Programme",
