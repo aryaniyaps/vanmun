@@ -32,6 +32,7 @@ export const committees: Committee[] = [
     name: "United Nations Environment Programme",
     abbreviation: "UNEP",
     agenda: "Climate change and its effects in the 21st century",
+    bgDownloadURL: "/background-guides/UNEP-BG-VANMUN23.pdf",
   },
 ];
 
