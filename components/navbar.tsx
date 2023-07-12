@@ -8,7 +8,8 @@ import { useState } from "react";
 
 const navigation = [
   { name: "Committees", href: "/committees", external: false },
-  { name: "Information", href: "/info", external: false },
+  { name: "Schedule", href: "/schedule", external: false },
+  { name: "FAQs", href: "/faqs", external: false },
   { name: "Secretariat", href: "/secretariat", external: false },
   { name: "Register", href: registerFormURL, external: true },
 ];
