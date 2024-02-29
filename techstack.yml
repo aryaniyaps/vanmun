@@ -2,7 +2,7 @@ repo_name: aryaniyaps/vanmun
 report_id: 3993fd13edc7a9a959adbfaa1f32df05
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-20T08:12:28+00:00'
+timestamp: '2024-02-29T19:31:03+00:00'
 requested_by: aryaniyaps
 provider: github
 branch: main
@@ -43,7 +43,7 @@ tools:
   last_updated_by: Aryan Iyappan
   last_updated_on: 2023-06-26 12:17:14.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 13.4.5
   open_source: true
